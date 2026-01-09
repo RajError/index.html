@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+#banner {
+  background: linear-gradient(135deg, #1a2332 0%, #0f1620 100%);
+  padding: 100px 0 120px;
+  text-align: center;
+}
+
+.banner-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px 22px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.badge span {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.badge i {
+  color: #4caf50;
+  margin-right: 8px;
+}
+
+#banner h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+#banner p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.banner-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.color-green {
+  color: #4caf50;
+}
+
+.btn {
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-green {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.btn-green:hover {
+  background-color: #45a049;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
